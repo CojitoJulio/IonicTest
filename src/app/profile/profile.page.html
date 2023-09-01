@@ -1,0 +1,19 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>profile</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/userslist"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card class="flex flex-col items-center">
+    <ion-avatar class="w-44">
+      <img src="{{personaje.image}}" />
+    </ion-avatar>
+    <ion-card-header class="mt-32">
+      <ion-card-title>{{personaje.name}}</ion-card-title>
+    </ion-card-header>
+  </ion-card>
+</ion-content>

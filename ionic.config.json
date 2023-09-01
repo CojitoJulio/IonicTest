@@ -1,0 +1,7 @@
+{
+  "name": "RnMProject",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

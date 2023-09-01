@@ -1,0 +1,39 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div class="flex flex-col items-center mt-10">
+    <ion-avatar class="w-44">
+      <img
+        src="https://media.vogue.es/photos/609d3714fae5608e730970ed/1:1/w_2000,h_2000,c_limit/Billie-Eilish-Happier-Than-Ever.jpeg"
+      />
+    </ion-avatar>
+    <h1 class="font-sans font-bold text-2xl mt-32">Iniciar Sesion</h1>
+    <article class="grid gap-4 mt-10 w-full px-10">
+      <ion-input
+        label="Usuario"
+        label-placement="floating"
+        fill="outline"
+        placeholder="Enter text"
+      ></ion-input>
+      <ion-input
+        type="password"
+        label="Contraseña"
+        label-placement="floating"
+        fill="outline"
+        placeholder="Enter text"
+      ></ion-input>
+
+      <ion-button expand="block" routerLink="/userslist">Entrar</ion-button>
+    </article>
+  </div>
+</ion-content>
